@@ -11,9 +11,10 @@ class App extends Component {
     return (
       <div id="app">
           <BlogPost />
+          <ColorBox />
           <div id="seperator"></div>
           <div className="wrapper">
-            <ColorBox opacity={1} />
+            <ColorBox opacity={0.9} />
           </div>
       </div>
     )
